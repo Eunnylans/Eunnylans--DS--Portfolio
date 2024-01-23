@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from '../../assets/profile-img.png';
+import profileImg from '../../assets/wills.JPG';
 import { Link } from 'react-scroll';
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 import CV from '../../assets/IWEBEMA Williams_ Data Analyst CV.pdf';
@@ -14,7 +14,7 @@ const Home = () => {
       <div className='home__wrapper'>
         <div className='home__container container'>
           <h1 className='home__title text-cs'>
-            <span>Nathaniel</span> Obafemi
+            <span>Williams</span> Iwebema
           </h1>
           <p className='home__job'>
             <b>Data Analyst </b>
@@ -32,7 +32,7 @@ const Home = () => {
 
             <p className='home__data home__data-one'>
               <span className='text-lg'>
-                4 <b>+</b>
+                2 <b>+</b>
               </span>
 
               <span className='text-sm text-cs'>

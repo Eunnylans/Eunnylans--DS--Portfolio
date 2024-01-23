@@ -1,26 +1,26 @@
-import React from 'react';
-import { services } from '../../Data';
-import { FaArrowRight } from 'react-icons/fa';
+import React from "react";
+import { FaArrowRight } from "react-icons/fa";
+import { services } from "../../Data";
 
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from 'swiper';
+import { Pagination } from 'swiper/modules';
 
-import './services.css';
+import "./services.css";
 
 const Services = () => {
   return (
-    <section className='services section' id='services'>
-      <h2 className='section__title text-cs'>What I Do</h2>
-      <p className='section__subtitle'>
+    <section className="services section" id="services">
+      <h2 className="section__title text-cs">What I Do</h2>
+      <p className="section__subtitle">
         My <span>Services</span>
       </p>
 
@@ -43,19 +43,19 @@ const Services = () => {
           },
         }}
         modules={[Pagination]}
-        className='services__container container mySwiper'
+        className="services__container container mySwiper"
       >
         {services.map(({ name, title, description }, index) => {
           return (
-            <SwiperSlide className='services__item card card-one' key={index}>
-              <span className='services__subtitle text-cs'>{name}</span>
+            <SwiperSlide className="services__item card card-one" key={index}>
+              <span className="services__subtitle text-cs">{name}</span>
 
-              <h3 className='services__title'>{title}</h3>
-              <p className='services__description'>{description}</p>
+              <h3 className="services__title">{title}</h3>
+              <p className="services__description">{description}</p>
 
               <Link
-                className='link'
-                to='pricing'
+                className="link"
+                to="pricing"
                 spy={true}
                 hashSpy={true}
                 smooth={true}
@@ -63,16 +63,16 @@ const Services = () => {
                 duration={500}
               >
                 See Pricing
-                <FaArrowRight className='link__icon'></FaArrowRight>
+                <FaArrowRight className="link__icon"></FaArrowRight>
               </Link>
             </SwiperSlide>
           );
         })}
       </Swiper>
-      <div className='section__deco deco__right'></div>
+      <div className="section__deco deco__right"></div>
 
-      <div className='section__bg-wrapper'>
-        <span className='bg__title'>Services</span>
+      <div className="section__bg-wrapper">
+        <span className="bg__title">Services</span>
       </div>
     </section>
   );

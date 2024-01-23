@@ -7,7 +7,7 @@ import Resume from "./components/resume/Resume";
 import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 import Testimonials from "./components/testimonials/Testimonials";
-// import Pricing from './components/pricing/Pricing';
+import Pricing from './components/pricing/Pricing';
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
