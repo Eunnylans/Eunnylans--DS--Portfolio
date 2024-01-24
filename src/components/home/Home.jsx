@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from '../../assets/wills.JPG';
+import profileImg from '../../assets/Williams.png';
 import { Link } from 'react-scroll';
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 import CV from '../../assets/IWEBEMA Williams_ Data Analyst CV.pdf';
