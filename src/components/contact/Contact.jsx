@@ -58,7 +58,7 @@ const Contact = () => {
             </span>
 
             <h3 className='contact__card-title'>Address</h3>
-            <p className='contact__card-data'>Barcelona, Spain</p>
+            <p className='contact__card-data'>Munich, Germany</p>
           </div>
 
           <div className='contact__card'>
@@ -76,7 +76,7 @@ const Contact = () => {
             </span>
 
             <h3 className='contact__card-title'>Email</h3>
-            <p className='contact__card-data'>obafeminathaniel6@gmail.com</p>
+            <p className='contact__card-data'>williamsiwebema87@gmail.com</p>
           </div>
 
           <div className='contact__card'>

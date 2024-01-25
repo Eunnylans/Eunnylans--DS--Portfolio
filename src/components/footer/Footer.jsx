@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='footer__container container grid'>
         <div className='footer__socials'>
           <a
-            href='https://github.com/Kunathly10'
+            href='https://github.com/williamsiwebema'
             target='blank'
             className='footer__social-link'
           >
@@ -16,8 +16,8 @@ const Footer = () => {
           </a>
 
           <a
-            href='linkedin.com/in/nathaniel-obafemi/'
-            target='_blank'
+            href='http://www.linkedin.com/in/williamsiwebema'
+            target='blank'
             className='footer__social-link'
           >
             <FaLinkedinIn />
