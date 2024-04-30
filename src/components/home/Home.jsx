@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-scroll";
 import CV from "../../assets/IWEBEMA Williams_ Data Analyst CV.pdf";
-import profileImg from "../../assets/Williams.png";
+import profileImg from "../../assets/Eunice.jpg";
 import "./home.css";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
       <div className="home__wrapper">
         <div className="home__container container">
           <h1 className="home__title text-cs">
-            <span>Williams</span> Iwebema
+            <span>Eunice</span> Igbinedion
           </h1>
           <p className="home__job">
             <b>Data Analyst </b>
@@ -62,7 +62,7 @@ const Home = () => {
 
           <div className="home__socials">
             <a
-              href="http://linkedin.com/in/nathaniel-obafemi/"
+              href="https://www.linkedin.com/in/euniceigbinedion/"
               target="blank"
               className="home__social-link"
             >
@@ -70,7 +70,7 @@ const Home = () => {
             </a>
 
             <a
-              href="https://github.com/Kunathly10"
+              href="https://github.com/Eunnylans"
               target="blank"
               className="home__social-link"
             >
