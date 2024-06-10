@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/header/Header";
+import HeroSection from './components/hero/HeroSection';
 import Home from "./components/home/Home";
 import Portfolio from "./components/portfolio/Portfolio";
 import Resume from "./components/resume/Resume";
@@ -14,6 +15,7 @@ function App() {
   return (
     <main className="main">
       <Header />
+      <HeroSection />
       <Home />
       <Portfolio />
       <Skills />

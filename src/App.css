@@ -10,10 +10,10 @@
 
 :root {
   /**
-   * colors
+   * colors   #29a385;
    */
 
-  --primary-color: hsl(0, 43%, 38%);
+  --primary-color:  #ff7f50;
   --title-color: hsl(0, 0%, 100%);
   --text-color: hsl(0, 0%, 92%);
   --bg-color: hsl(216, 18%, 16%);

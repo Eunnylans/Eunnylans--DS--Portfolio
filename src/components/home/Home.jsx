@@ -17,13 +17,13 @@ const Home = () => {
             <span>Eunice</span> Igbinedion
           </h1>
           <p className="home__job">
-            <b>Data Analyst </b>
+            <b>Data Analyst / Business Analyst </b>
           </p>
 
           <div className="home__img-wrapper">
             <div className="home__banner">
               <img
-                src={profileImg}
+                src={''}
                 alt=""
                 className="home__profile"
                 style={{ marginLeft: "50px" }}
@@ -52,12 +52,8 @@ const Home = () => {
           </div>
 
           <p className="home__text">
-            A motivated and highly skilled Data Analyst and Environmental
-            Scientist with years of experience in analyzing data. I am able to
-            perform statistical analysis, hypothesis testing on your product. I
-            have a strong proficiency in statistical analysis, modeling, and
-            data visualization using software such as SQL, Python, Excel, and
-            Tableau to develop data-driven solutions to complex problems.
+          In today's data-driven world, making informed decisions is key to success. I am a seasoned Data Analyst with a passion for turning raw data into
+          actionable insights. I empowers businesses to unlock their full potential. From streamlining operations to enhancing customer experiences, my data-driven strategies ensure you stay ahead of the curve.
           </p>
 
           <div className="home__socials">
