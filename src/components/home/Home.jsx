@@ -1,8 +1,8 @@
 import React from "react";
 import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-scroll";
+import Profile from "../../assets/Eunnylans.jpg";
 import CV from "../../assets/IWEBEMA Williams_ Data Analyst CV.pdf";
-import profileImg from "../../assets/Eunice.jpg";
 import "./home.css";
 
 const Home = () => {
@@ -23,10 +23,10 @@ const Home = () => {
           <div className="home__img-wrapper">
             <div className="home__banner">
               <img
-                src={''}
-                alt=""
+                src={Profile}
+                alt="Eunice Igbinedion"
                 className="home__profile"
-                style={{ marginLeft: "50px" }}
+                style={{ marginLeft: "80px" }}
               />
             </div>
 
@@ -52,8 +52,12 @@ const Home = () => {
           </div>
 
           <p className="home__text">
-          In today's data-driven world, making informed decisions is key to success. I am a seasoned Data Analyst with a passion for turning raw data into
-          actionable insights. I empowers businesses to unlock their full potential. From streamlining operations to enhancing customer experiences, my data-driven strategies ensure you stay ahead of the curve.
+            In today's data-driven world, making informed decisions is key to
+            success. I am a seasoned Data Analyst with a passion for turning raw
+            data into actionable insights. I empowers businesses to unlock their
+            full potential. From streamlining operations to enhancing customer
+            experiences, my data-driven strategies ensure you stay ahead of the
+            curve.
           </p>
 
           <div className="home__socials">

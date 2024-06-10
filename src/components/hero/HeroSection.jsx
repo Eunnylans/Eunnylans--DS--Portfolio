@@ -1,5 +1,6 @@
 import React from 'react';
 import './heroSection.css';
+import Particles from 'react-tsparticles';
 
 const HeroSection = () => {
     return (
@@ -24,6 +25,7 @@ const HeroSection = () => {
                 </ul>
                 <button className="cta-button">Unlock the Power of Your Data</button>
             </div>
+            <Particles />
         </div>
     );
 };
