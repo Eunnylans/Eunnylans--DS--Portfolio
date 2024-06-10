@@ -11,6 +11,10 @@ import Testimonial5 from './assets/testimonial5.jpg';
 
 export const links = [
   {
+    name: 'Title Page',
+    path: 'hero-container',
+  },
+  {
     name: 'Home',
     path: 'home',
   },

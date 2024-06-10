@@ -3,7 +3,7 @@ import './heroSection.css';
 
 const HeroSection = () => {
     return (
-        <div className="hero-container">
+        <div className="hero-container" id='hero-container'>
             <div className="hero-content">
                 <h1>Transforming Data into Insightful Decisions</h1>
                 <h2>Meet Eunice Igbinedion: Your Expert Data Analyst</h2>
@@ -19,7 +19,7 @@ const HeroSection = () => {
                 */}
                 <ul>
                     <li><strong>Expertise:</strong> Advanced Analytics, Data Visualization, Machine Learning</li>
-                    <li><strong>Tools:</strong> Python, R, SQL, Tableau, Power BI</li>
+                    <li><strong>Tools:</strong> Excel, Python, SQL, Tableau, Power BI,  machine Learning</li>
                     <li><strong>Experience:</strong> 7+ years in diverse industries including finance, healthcare, and retail</li>
                 </ul>
                 <button className="cta-button">Unlock the Power of Your Data</button>

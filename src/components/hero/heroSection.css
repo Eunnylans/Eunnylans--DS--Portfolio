@@ -36,13 +36,13 @@
 }
 
 .hero-content ul li {
-  font-size: 1rem;
+  font-size: var(--large-font-size);
   margin-bottom: 10px;
 }
 
 .cta-button {
   padding: 15px 30px;
-  font-size: 1rem;
+  font-size: var(--large-font-size);
   color: #fff;
   background-color: #ff7f50;
   border: none;
