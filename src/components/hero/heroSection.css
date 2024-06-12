@@ -3,7 +3,11 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: var(--first-gradient);
+  /* background: var(--first-gradient);*/
+  background-image: url('../../assets/Background.jpg');
+  background-size: cover; /* Make the background cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
 
   padding: 0 20px;
   text-align: center;
