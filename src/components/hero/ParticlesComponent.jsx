@@ -28,7 +28,7 @@ const ParticlesComponent = (props) => {
         },
         modes: {
           push: {
-            quantity: 1.0, // number of particles to add on click
+            quantity: 3, // number of particles to add on click
           },
           repulse: {
             distance: 100, // distance of the particles from the cursor
@@ -37,7 +37,7 @@ const ParticlesComponent = (props) => {
       },
       particles: {
         links: {
-          enable: true, // enabling this will make particles linked together
+          enable: false, // enabling this will make particles linked together
           distance: 200, // maximum distance for linking the particles
         },
         move: {
