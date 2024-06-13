@@ -1,5 +1,6 @@
 import React from 'react';
 import './heroSection.css';
+import VisibilityIcon from "@material-ui/icons/Visibility";
 
 
 
@@ -24,7 +25,7 @@ const HeroSection = () => {
                     <li><strong>Tools:</strong> Excel, Python, SQL, Tableau, Power BI,  machine Learning</li>
                     <li><strong>Experience:</strong> 7+ years in diverse industries including finance, healthcare, and retail</li>
                 </ul>
-                <button className="cta-button">Unlock the Power of Your Data</button>
+                <button className="cta-button">VIEW PORTFOLIO <VisibilityIcon className="cta-button-icon" /></button>
             </div>
         </div>
     );
