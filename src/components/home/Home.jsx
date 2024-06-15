@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-scroll";
-import Profile from "../../assets/Eunnylans.jpg";
+import Profile from "../../assets/Eunic.jpg";
 import CV from "../../assets/IWEBEMA Williams_ Data Analyst CV.pdf";
 import "./home.css";
 
