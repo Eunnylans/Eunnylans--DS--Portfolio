@@ -4,7 +4,9 @@
   justify-content: center;
   height: 100vh;
   /* background: var(--first-gradient);*/
-  background-image: url('../../assets/Background.jpg');
+  background-image: url('../../assets/black.jpg');
+
+  background-image: var(--second-gradient);
   background-size: cover; /* Make the background cover the entire area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
