@@ -106,7 +106,7 @@ export const skills = [
     name: 'Data manipulation',
     percentage: 85,
     description:
-      'As a data analyst, my core skill is data manipulation, which involves cleaning, transforming, and analyzing data using tools such as SQL, Python, and R. I am able to work with large and complex data sets, identify and correct errors, and perform advanced transformations such as reshaping and merging data sources. .',
+      'As a data analyst, my core skill is data manipulation, which involves cleaning, transforming, and analyzing data using tools such as SQL, Python, and R. I am able to work with large and complex data sets, identify and correct errors, and perform advanced transformations such as reshaping and merging data sources.',
   },
 
   {
@@ -121,7 +121,7 @@ export const skills = [
     name: 'Statistical analysis',
     percentage: 90,
     description:
-      'Skill set in statistical analysis, which enables me to extract meaningful insights from data using statistical methods and tools. I have a thorough understanding of statistical concepts such as probability, hypothesis testing, regression analysis, and machine learning algorithms. I am proficient in using statistical software such as R, Python, and SAS, and I can analyze large and complex data sets to identify patterns, trends, and relationships.',
+     ' My statistical analysis skills enable me to extract insights from data using methods like probability, hypothesis testing, regression, and machine learning algorithm. I am proficient in using statistical softwares such as Python, and R, and can analyze large, complex datasets to identify patterns, trends, and relationships.',
   },
   {
     id: 4,
@@ -144,7 +144,7 @@ export const skills = [
     name: 'ETL',
     percentage: 60,
     description:
-      'Strong ETL (Extract, Transform, Load) skills, which involve extracting data from various sources, transforming it into a format suitable for analysis, and loading it into a data warehouse or other systems. I am proficient in using ETL tools such as Talend, Apache NiFi, and SSIS to extract data from various sources such as databases, APIs, and flat files, transform it into a usable format, and load it into a data warehouse or other systems.',
+      'Strong ETL skills in extracting, transforming, and loading data from various sources into data warehouses. Proficient with ETL tools like Talend, Apache NiFi, and SSIS for handling data from databases, APIs, and flat files, ensuring it is transformed into a suitable format for analysis and successfully loaded into target systems.',
   },
 
   {
@@ -152,42 +152,42 @@ export const skills = [
     name: 'Data warehousing',
     percentage: 60,
     description:
-      'I possess strong data warehousing skills, which involve designing and building databases to store and manage large amounts of data. I am experienced in using tools such as SQL Server, Oracle, and PostgreSQL to create and manage data warehouses that can handle large and complex data sets. I am proficient in designing data models, optimizing database performance, and ensuring data integrity and security.',
+      'I possess strong data warehousing skills, designing and building databases to manage large data sets. Experienced with SQL Server, Oracle, and PostgreSQL, I create and manage data warehouses, design data models, optimize performance, and ensure data integrity and security for handling complex datasets.',
   },
   {
     id: 8,
     name: 'Photoshop',
     percentage: 80,
     description:
-      'Great Understanding of design principles. Familiarity with Photoshop interface and tools.Ability to create wireframes and mockups',
+      'I have a great understanding of design principles and am familiar with Photoshop interface. I also possess the ability to create wireframes and mockups using Figma. This combination ensures effective design solutions, strong visual communication, and user-friendly interfaces, allowing me to translate concepts into designs.',
   },
   {
     id: 6,
     name: 'Database management',
     percentage: 70,
     description:
-      'As a data analyst, I possess strong database management skills, which involve creating, maintaining, and optimizing databases to store and manage large amounts of data. I am proficient in using database management systems such as MySQL, Oracle, and SQL Server to design, develop, and maintain databases that can handle large and complex data sets. I am experienced in optimizing database performance, ensuring data integrity and security, and troubleshooting issues that may arise. ',
+      'As a data analyst, I possess strong database management skills, creating, maintaining, and optimizing databases to manage large data sets. Proficient in MySQL, Oracle, and SQL Server, I design, develop, and maintain databases, optimize performance, ensure data integrity and security, and troubleshoot issues effectively.',
   },
   {
     id: 6,
     name: 'Web Scraping',
     percentage: 75,
     description:
-      'I possess strong web scraping skills, which involve extracting data from websites using automated tools and techniques. I am experienced in using web scraping tools such as BeautifulSoup, Scrapy, and Selenium to extract data from various sources such as HTML pages, APIs, and PDFs. ',
+      'I have strong web scraping skills, extracting data using tools like BeautifulSoup, and Scrapy from websites, HTML pages, APIs, and PDFs. ',
   },
   {  
   id: 6,
     name: 'A/B testing',
     percentage: 90,
     description:
-      'I am able to perform A/B testing or hypothesis testing on your digital product.',
+      "I am proficient in conducting A/B testing and hypothesis testing to optimize your digital product's performance and user experience.",
   },
   {  
     id: 6,
       name: 'Power BI',
       percentage: 90,
       description:
-        'Building different data reports and story using Power BI.',
+        'I create data reports and narratives using Power BI, leveraging its capabilities for effective data visualization and analysis.',
     }
 ];
 
@@ -199,7 +199,7 @@ export const projects = [
     title: 'HR Analytic Dashboard',
     description:
       'The HR analytics project done in Tableau is an interactive dashboard that provides key metrics related to employee attrition, active employees, and average age within an organization ',
-    href: 'https://f19c59c6-696c-4494-922a-97aa7e9a092a.filesusr.com/ugd/7ca609_00003b6bdb484ea08e863d1115937a5a.pdf',
+    href: 'https://public.tableau.com/app/profile/euniceigbinedion/viz/HR_Dashboard_17192318307840/HRSummary',
   },
   {
     id: 2,
@@ -208,7 +208,16 @@ export const projects = [
     title: 'US Census Demography Dashboard',
     description:
       'The US Census Demography project done in Tableau is an interactive dashboard that presents various visualizations of the demographic data collected from the US Census Bureau.',
-    href: 'https://f19c59c6-696c-4494-922a-97aa7e9a092a.filesusr.com/ugd/7ca609_217db8c3e945436d880ebacefa206a7e.pdf',
+    href: 'https://public.tableau.com/app/profile/euniceigbinedion/viz/EunnylansDynamicSalesCustomerDashboard/CustomerDashboard',
+  },
+  {
+    id: 5,
+    img: Project4,
+    category: 'Power BI',
+    title: 'Unicorn Data Analytic Dashboard',
+    description:
+      'As a candidate for a DA position at Unicorn company, I have conducted an analysis of our sales data, and I am pleased to present my findings to the DA team lead. ',
+    href: 'https://public.tableau.com/app/profile/nathaniel.obafemi/viz/capstonepoject/Unicorn_analytic_Dashboard',
   },
   {
     
@@ -248,15 +257,6 @@ export const projects = [
     href: 'https://github.com/Kunathly10/Project_US-mass-shooting',
   },
   {
-    id: 5,
-    img: Project4,
-    category: 'Tableau',
-    title: 'Unicorn Data Analytic Dashboard',
-    description:
-      'As a candidate for a DA position at Unicorn company, I have conducted an analysis of our sales data, and I am pleased to present my findings to the DA team lead. ',
-    href: 'https://public.tableau.com/app/profile/nathaniel.obafemi/viz/capstonepoject/Unicorn_analytic_Dashboard',
-  },
-  {
       id: 6,
     img: Project3,
     category: 'Python',
@@ -271,71 +271,91 @@ export const projects = [
 export const cv = [
   {
     id: 1,
-    title: '10Alytic United Kingdom',
-    subtitle: 'Masters Data Engineering',
-    date: '2023 - 2023',
+    title: 'upGrad KnowledgeHut, India',
+    subtitle: 'Data Science',
+    date: '2023 - 2024',
     description:
-      'I am learning to improve on my skills by transitioning into a Data Engineer.',
+      'I am learning to improve on my skills by transitioning into a Data Scientist.',
     category: 'education'
   },
   {
     id: 1,
-    title: 'Masterschool New York, USA',
-    subtitle: 'Masterschool, New York United States',
-    date: '2022 - 2023',
+    title: 'Redi School, Germany',
+    subtitle: 'Data Analyst',
+    date: '2023 - 2023',
     description:
       'As a student of Data Analysis, I have learned a wide range of skills and techniques that will enable me to use data to make informed decisions and solve complex problems. I have also gained hands-on experience with data analysis software such as R, Python, and SQL to manipulate and analyze large datasets',
     category: 'education',
   },
 
   {
-    id: 2,
-    title: 'Masters Degree in Environmental Science ( Data Modeling)',
-    subtitle: 'Ca Foscari University of Venice, Italy',
-    date: '2018 - 2022',
+    id: 1,
+    title: 'WBS Coding School, Germany',
+    subtitle: 'Web Developer',
+    date: '2022 - 2022',
     description:
-      'During my studies, I have gained a variety of skills relevant to the environmental science field, such as data analysis, project management, scientific research, and critical thinking. I have also had the opportunity to conduct independent research and presented my findings at conferences. I have also gained experience with software such as R, Matlab, and QGIS',
+      'As a web developer i learned how to  create efficient, scalable, and user-friendly web applications. Proficient in various programming languages, including HTML5, CSS3, JavaScript, and Python. Skilled in both front-end and back-end development and well-versed in modern frameworks and libraries such as React, Angular, and Node.js. Strong understanding of responsive design principles and cross-browser compatibility. Excellent problem-solving skills and a keen eye for detail.',
+    category: 'education',
+  },
+
+  {
+    id: 2,
+    title: 'Masters Degree in Science and Technology Studies',
+    subtitle: 'Technical University of Munich, Germany',
+    date: '2021 - 2024',
+    description:
+      'During my studies, I have gained a variety of skills relevant to the science field, gained  a comprehensive understanding of how science and technology intersect with society. Have explored critical perspectives on issues like sustainability, globalization, digital cultures, and the democratization of knowledge. Practical research skills are developed through projects that analyze case studies, engage with empirical data, and evaluate policy implications',
+    category: 'education',
+  },
+
+  {
+    id: 2,
+    title: 'Masters in Business Administration, MBA',
+    subtitle: 'University of Lagos, Nigeria',
+    date: '2016 - 2018',
+    description:
+      'During my studies, I have gained a variety of skills relevant in the business world, such as leadership roles in the dynamic and competitive world of marketing and business. Deepened my understanding of consumer behavior, market research and analytics, branding strategies, digital marketing, and global marketing trends.',
     category: 'education',
   },
 
   {
     id: 3,
-    title: 'Bachelor Degree Industrial Chemistry',
-    subtitle: 'Federal University of Technology Akure, Nigeria',
-    date: '2011 - 2016',
+    title: 'Bachelor Degree in Ecoconomics & Statistics',
+    subtitle: 'University of Benin, Nigeria',
+    date: '2004 - 2008',
     description:
-      'Successful completion of a project on "Removal of Pb and Cd from wastewater using Saw-Dust as a Biochar". The project aimed to investigate the potential of using sawdust as biochar to remove heavy metals from wastewater, specifically lead (Pb) and cadmium (Cd). The project was a success, as the results showed that sawdust biochar was an effective adsorbent for removing both heavy metals from wastewater',
+      'Successful completion of a project on "Econometric Analysis of the impact of real exchange rate on industrial output in Nigeria". The project aimed to assess how fluctuations in the real exchange rate affect the performance of the industrial sector in Nigeria. The project was a success, as the results showed a significant correlation between changes in the real exchange rate and fluctuations in industrial output in Nigeria. Variations in the real exchange rate were found to have a measurable impact on the production levels and competitiveness of the industrial sector',
     category: 'education',
   },
   {id: 4,
-    title: 'Masterschool New York, USA',
+    title: 'Web Solutions and Communication, Remote',
     subtitle: 'Data | Business Anallyst ',
-    date: '2022 - present',
+    date: '2024 - present',
     description:
       '•Designed and adopted data-driven strategies, resulting in a 15% increase in salesrevenue and a 10% improvement in customersatisfaction. •Collaborated with cross-functional teamsto streamline processes, reducing operational costs by 20% and increasing overall efficiency',
     category: 'experience'},
     
     {id: 5,
-    title: 'PASSNFLY (An aviation company)/ Barcelona',
-    subtitle: 'Data Analyst/Research ',
-    date: '2022 - 2023',
+    title: 'Sixt, Germany',
+    subtitle: 'Mobile Checkin ',
+    date: '2023 - 2024',
     description:
       'Reserached on the company data need and analyzed them using Excel.',
     category: 'experience',
   },
   {
     id: 6,
-    title: 'UNIVERSITY OF CADIZ, SPAIN',
-    subtitle: 'Environmental Data Science',
-    date: 'Jan 2022 - Jun 2022',
+    title: 'Regenate, Remote',
+    subtitle: 'Frontend Developer',
+    date: 'Jan 2022 - Jun 2023',
     description:
       'Conducted statistical analysis on 80% of environmental data to identify patterns and trends, resulting ting in an improved understanding of the local ecosystem. Cleaned and processed large environmental datasets (up to 100 GB) using software such as R or Python, improving data accuracy by 50%.',
     category: 'experience',
   },
   {
     id: 6,
-    title: 'ARTIQ UK LTD',
-    subtitle: 'Data Analysis',
+    title: 'Web Solutions & Communications, Nigeria',
+    subtitle: 'Marketing & Business Analysis',
     date: '2016 - 2019',
     description:
       '•Built a Tableau dashboard to visualize core business KPIs(e.g. Monthly Recurring Revenue), saving 13 hours per week of manual reporting work. •Deployed SQL for testing reports and ETL load jobs, optimizing data processing and reducing errors by 15%. •Developed and maintained reports, dashboards, and visualizationsto drive data-driven decision-making, resulting in a 20% improvement in operational efficiency.',
@@ -343,8 +363,17 @@ export const cv = [
   },
   {
     id: 7,
-    title: 'FANMILK PLC, NIGERIA',
-    subtitle: 'Data Analyst',
+    title: 'Euro Mega, Nigeria',
+    subtitle: 'Business Analyst',
+    date: '2015-2016',
+    description:
+      'Successfully conducted environmental monitoring and testing to support a project which resulted in a 95% reduction in air pollutants. Collected and analyzed water samples which led to the identification and remediation of a contaminated site, resulting in an 80% reduction of hazardous waste.',
+    category: 'experience',
+  },
+  {
+    id: 7,
+    title: 'Eko Supreme Resources, Nigeria',
+    subtitle: 'Sales Analyst',
     date: '2015-2016',
     description:
       'Successfully conducted environmental monitoring and testing to support a project which resulted in a 95% reduction in air pollutants. Collected and analyzed water samples which led to the identification and remediation of a contaminated site, resulting in an 80% reduction of hazardous waste.',

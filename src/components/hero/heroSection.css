@@ -4,29 +4,31 @@
   justify-content: center;
   height: 100vh;
   /* background: var(--first-gradient);*/
-  background-image: url('../../assets/black.jpg');
-
   background-image: var(--second-gradient);
+  background-image: url('../../assets/Background.jpg');
   background-size: cover; /* Make the background cover the entire area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
-
+  color: white;
   padding: 0 20px;
   text-align: center;
 }
 
 .hero-content {
   max-width: 800px;
+  color: #fff;
 }
 
 .hero-content h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .hero-content h2 {
   font-size: 2rem;
   margin-bottom: 15px;
+  color: #fff;
 }
 
 .hero-content p {

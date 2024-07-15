@@ -288,6 +288,11 @@ img {
   font-weight: 700;
   cursor: pointer;
 }
+.custom-link {
+  color: var(--primary-color);
+  /*color: #000; */
+}
+
 
 .link__icon {
   color: var(--primary-color);

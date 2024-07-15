@@ -24,7 +24,7 @@ const Items = ({ projectItems }) => {
             <span className="portfolio__category text-cs">{category}</span>
             <h3 className="portfolio__title">{title}</h3>
             <p className="portfolio__description">{description}</p>
-            <a href={href} target="blank">
+            <a href={href} target="blank" className="custom-link">
               Click here <FaArrowRight className="link__icon"></FaArrowRight>
             </a>
           </motion.div>

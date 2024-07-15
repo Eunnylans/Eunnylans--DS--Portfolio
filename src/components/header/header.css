@@ -4,6 +4,7 @@
     width: 100%;
     padding: 30px;
     z-index: 100;
+    background-image: var(--primary-color);
   }
   
   .scroll-header {
