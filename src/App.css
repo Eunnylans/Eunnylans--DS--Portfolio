@@ -74,7 +74,9 @@
 #LIGHT MODE
 \*-----------------------------------*/
 .light-theme {
-  --title-color: #000;
+  --title-color:  #000;
+  --title-color2:  #ff7f50;
+  --title-color3: hsl(0, 0%, 100%);
   --text-color: #262626;
   --bg-color: #f0ebe3;
   --bg-color-alt: #fff;
