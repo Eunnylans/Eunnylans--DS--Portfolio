@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { testimonials } from "../../Data";
 
-import testimonialIcon from "../../assets/testimonials-icon.svg";
+import Icon from "../../assets/lol.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -52,7 +52,7 @@ const Testimonials = () => {
             >
               <div className="testimonial__header">
                 <div className="testimonial__icon">
-                  <img src={testimonialIcon} alt="" />
+                  <img src={Icon} alt="" />
                 </div>
 
                 <img src={img} alt="" className="testimonial__img" />

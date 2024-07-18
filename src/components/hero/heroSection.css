@@ -8,6 +8,7 @@
     /*background-image: url('../../assets/Background.jpg'); */
   background-image: var(--second-gradient);
   background-image: var(  --title-color2);
+  background-image: url('../../assets/Back.png');
   background-size: cover; /* Make the background cover the entire area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */

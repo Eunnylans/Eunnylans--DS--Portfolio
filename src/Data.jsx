@@ -225,7 +225,7 @@ export const projects = [
     title: "Electric Vehicle Analysis Dashboard",
     description:
       "The Electric Vehicle (EV) Analysis project, is an interactive tool, this dashboard offers detailed analysis of EV sales, customer demographics, charging infrastructure, and market trends, supporting strategic decision-making and fostering growth in the EV sector. ",
-    href: "https://app.powerbi.com/groups/me/reports/0fbdbecc-06c2-4b19-930e-83b8f5db8841/a900e8dae109900b05a4?ctid=5d7b49e9-50d2-40dc-bab1-14a2d903542c&pbi_source=shareVisual&visual=047a1690285098b2d687&height=247.02&width=449.12&bookmarkGuid=95973f33-54e1-4f5c-b128-683d1c2de05c",
+    href: "https://app.powerbi.com/links/pFlpyYcJR6?ctid=5d7b49e9-50d2-40dc-bab1-14a2d903542c&pbi_source=linkShare",
   },
   {
     id: 2,
@@ -394,28 +394,28 @@ export const testimonials = [
   {
     id: 1,
     img: Testimonial1,
-    name: "Ozy Huli, Masterschool",
-    author: "Student Success Manager at Masterschool",
+    name: "Irina Dragomirescu",
+    author: "",
     description:
-      '“Hi Nathaniel,   As you might see in the slack community channels, we aim to help students build a strong network from the start. When transitioning to a new career it can sometimes be challenging to build a new network, since it may take some time and energy. This is why we ask a few students to help us in building a strong sense of community before the start of the program..."',
-    href: "https://www.linkedin.com/in/sophie-riding/",
+      'I have had the pleasure of working with Eunice on numerous occasions. When it comes to our work and projects she never ceased to amaze me with her resourcefulness, great teamwork, unstoppable eagerness to help her colleagues and impressive coding skills.',
+    href: "https://www.linkedin.com/in/irina-dragomirescu/",
   },
   {
     id: 2,
     img: Testimonial2,
-    name: "Sophie Riding",
+    name: "Enrique-Coscarelli",
     author: "",
     description:
-      '"Nathaniel Obafemi has a deep understanding of the subject matter and is able to explain complex concepts in a clear and easily understandable manner. ....."',
-    href: "https://www.linkedin.com/in/sophie-riding/",
+      'Eunice has been an incredible student, she would always amaze me with the outcomes of her projects. So much so that she was one of the winners for her final project along with her team mates. I am already so proud of her, I am sure she will do really well in the future.',
+    href: "https://www.linkedin.com/in/enrique-coscarelli/",
   },
   {
     id: 3,
     img: Testimonial3,
     name: "Williams Iwebema",
-    author: "Phd Student ",
+    author: "",
     description:
-      "Nathaniel Obafemi´s qualifications and previous educational background in Environmental science with a focus on data analysis make him a strong candidate for further study in the field of climate change and GIS.”",
+      "Eunice has been an incredible student, she would always amaze me with the outcomes of her projects. So much so that she was one of the winners for her final project along with her team mates. I am already so proud of her, I am sure she will do really well in the future.",
     href: "https://www.linkedin.com/in/oluseun-sanuade-9406b730/",
   },
 ];
