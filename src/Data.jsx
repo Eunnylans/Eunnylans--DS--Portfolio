@@ -326,20 +326,20 @@ export const cv = [
   {
     id: 4,
     title: "Web Solutions and Communication, Remote",
-    subtitle: "Data | Business Anallyst ",
+    subtitle: "Data Analyst ",
     date: "2024 - present",
     description:
-      "•Designed and adopted data-driven strategies, resulting in a 15% increase in salesrevenue and a 10% improvement in customersatisfaction. •Collaborated with cross-functional teamsto streamline processes, reducing operational costs by 20% and increasing overall efficiency",
+      "I utilized advanced tools to analyzed diverse departmental datasets. I prepared detailed reports, dashboards, and visualizations for stakeholder decision-making. I cleaned and validated data to ensure accuracy. Identifying trends and correlations, I provided actionable insights for strategic and operational improvements. I evaluated policy effectiveness through data analysis for evidence-based policymaking. Developing forecasting models aids in proactive decision-making. I ensured compliance with regulatory requirements and confidentiality. Collaborating across teams, I delivered actionable insights. I recommended enhancements to data collection and analysis processes for increased efficiency",
     category: "experience",
   },
 
   {
     id: 5,
     title: "Sixt, Germany",
-    subtitle: "Mobile Checkin ",
+    subtitle: "Mobile Check in ",
     date: "2023 - 2024",
     description:
-      "Reserached on the company data need and analyzed them using Excel.",
+      "Handled customer bookings, checked availability, and facilitated reservations using mobile devices. Ensured a smooth and efficient check-in and check-out process, reducing wait times and enhancing customer satisfaction. Identified opportunities to offer additional services and products such as insurance packages, GPS devices, and car upgrades. Used customer data on behavior and preferences to tailor sales pitches and maximize revenue. Assisted in analyzing data to identify trends and support inventory management and marketing strategies. Maintained clear and prompt communication to keep customers informed and engaged about bookings, changes, or special offers.",
     category: "experience",
   },
   {
@@ -348,34 +348,34 @@ export const cv = [
     subtitle: "Frontend Developer",
     date: "Jan 2022 - Jun 2023",
     description:
-      "Conducted statistical analysis on 80% of environmental data to identify patterns and trends, resulting ting in an improved understanding of the local ecosystem. Cleaned and processed large environmental datasets (up to 100 GB) using software such as R or Python, improving data accuracy by 50%.",
+      "Developed User Interfaces: Created and implemented user-friendly web interfaces using HTML, CSS, and JavaScript frameworks like React. Ensured that web applications were responsive and worked seamlessly across various devices and screen sizes. Optimized frontend performance by minimizing load times and improving code efficiency. Ensured that web applications worked consistently across different browsers and platforms. Worked closely with UX/UI designers to translate design mockups and wireframes into functional web interfaces. Collaborated with backend developers to integrate frontend components with server-side logic and databases. Tested and Debugged: Wrote unit tests and performed debugging to ensure the reliability and stability of frontend code.",
     category: "experience",
   },
   {
     id: 6,
     title: "Web Solutions & Communications, Nigeria",
-    subtitle: "Marketing & Business Analysis",
+    subtitle: "Sales & Marketing Analyst",
     date: "2016 - 2019",
     description:
-      "•Built a Tableau dashboard to visualize core business KPIs(e.g. Monthly Recurring Revenue), saving 13 hours per week of manual reporting work. •Deployed SQL for testing reports and ETL load jobs, optimizing data processing and reducing errors by 15%. •Developed and maintained reports, dashboards, and visualizationsto drive data-driven decision-making, resulting in a 20% improvement in operational efficiency.",
+      "Built an Excel dashboard for core business KPIs, saving 13 hours weekly in manual reporting. Deployed SQL to optimize data processing, reducing errors by 15%. Developed reports, dashboards, and visualizations for data-driven decision-making, achieving a 20% efficiency improvement. Analyzed market trends and sales data to identify opportunities. Evaluated marketing campaigns and strategies. Forecasted sales trends and market demand. Monitored competitor activities. Created comprehensive sales performance reports and presentations. Collaborated with sales and marketing teams on strategy alignment. Recommended sales-boosting strategies. Tracked key performance metrics. Assessed customer preferences. Supported pricing and product launches. Interpreted data for actionable insights. Managed databases with integrity. Presented findings to stakeholders. Ensured compliance with industry regulations. Facilitated communication across departments.",
     category: "experience",
   },
   {
     id: 7,
     title: "Euro Mega, Nigeria",
-    subtitle: "Business Analyst",
+    subtitle: "Sales Services Analyst",
     date: "2015-2016",
     description:
-      "Successfully conducted environmental monitoring and testing to support a project which resulted in a 95% reduction in air pollutants. Collected and analyzed water samples which led to the identification and remediation of a contaminated site, resulting in an 80% reduction of hazardous waste.",
+      "Gathered and analyzed customer data to understand behavior, preferences, and satisfaction levels. Used these information to drive customer-centric strategies and improved customer loyalty. Monitored sales performance, tracked key performance indicators (KPIs), and analyzed revenue trends. Provided detailed reports and recommendations to improve sales strategies and achieve revenue targets. Monitored and analyzed competitors' activities, products, and market strategies. Provided insights and recommendations to stay ahead in the market. Ensured all business practices comply with relevant regulations and standards." ,
     category: "experience",
   },
   {
     id: 7,
     title: "Eko Supreme Resources, Nigeria",
-    subtitle: "Sales Analyst",
-    date: "2015-2016",
+    subtitle: "Sales Administrator",
+    date: "2010-2015",
     description:
-      "Successfully conducted environmental monitoring and testing to support a project which resulted in a 95% reduction in air pollutants. Collected and analyzed water samples which led to the identification and remediation of a contaminated site, resulting in an 80% reduction of hazardous waste.",
+      "Initiated and tracked orders to completion, increasing sales by 30%, Provided administrative and account management support to the distributor and sales supervisors, Acted as the primary contact point for trade inquiries, Ensured the region met and surpassed its monthly and yearly targets, Prepared customer receivable aging reports.",
     category: "experience",
   },
 ];
