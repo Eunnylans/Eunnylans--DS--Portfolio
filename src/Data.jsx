@@ -2,6 +2,7 @@ import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.png";
 import Project4 from "./assets/Project4.png";
+import Project5 from "./assets/Project5.png";
 
 import Testimonial1 from "./assets/testimonial1.jpg";
 import Testimonial2 from "./assets/testimonial2.jpg";
@@ -205,7 +206,7 @@ export const projects = [
     category: "Tableau",
     title: "Sales & Customer Dashboard",
     description:
-      "The US Census Demography project done in Tableau is an interactive dashboard that presents various visualizations of the demographic data collected from the US Census Bureau.",
+      "This dashboard serves as a central hub for analyzing sales performance, understanding customer demographics, and identifying trends that drive business decisions.",
     href: "https://public.tableau.com/app/profile/euniceigbinedion/viz/EunnylansDynamicSalesCustomerDashboard/CustomerDashboard",
   },
   {
@@ -214,7 +215,16 @@ export const projects = [
     category: "Power BI",
     title: "Car Sales Dashboard",
     description:
-      "As a candidate for a DA position at Unicorn company, I have conducted an analysis of our sales data, and I am pleased to present my findings to the DA team lead. ",
+      "This project integrates various data points, offers detailed analysis of sales metrics, customer demographics, and trends, aiding in strategic decision-making and performance optimization. ",
+    href: "https://app.powerbi.com/groups/me/reports/0fbdbecc-06c2-4b19-930e-83b8f5db8841/a900e8dae109900b05a4?ctid=5d7b49e9-50d2-40dc-bab1-14a2d903542c&pbi_source=shareVisual&visual=047a1690285098b2d687&height=247.02&width=449.12&bookmarkGuid=95973f33-54e1-4f5c-b128-683d1c2de05c",
+  },
+  {
+    id: 5,
+    img: Project5,
+    category: "Power BI",
+    title: "Electric Vehicle Analysis Dashboard",
+    description:
+      "The Electric Vehicle (EV) Analysis project, is an interactive tool, this dashboard offers detailed analysis of EV sales, customer demographics, charging infrastructure, and market trends, supporting strategic decision-making and fostering growth in the EV sector. ",
     href: "https://app.powerbi.com/groups/me/reports/0fbdbecc-06c2-4b19-930e-83b8f5db8841/a900e8dae109900b05a4?ctid=5d7b49e9-50d2-40dc-bab1-14a2d903542c&pbi_source=shareVisual&visual=047a1690285098b2d687&height=247.02&width=449.12&bookmarkGuid=95973f33-54e1-4f5c-b128-683d1c2de05c",
   },
   {
@@ -366,7 +376,7 @@ export const cv = [
     subtitle: "Sales Services Analyst",
     date: "2015-2016",
     description:
-      "Gathered and analyzed customer data to understand behavior, preferences, and satisfaction levels. Used these information to drive customer-centric strategies and improved customer loyalty. Monitored sales performance, tracked key performance indicators (KPIs), and analyzed revenue trends. Provided detailed reports and recommendations to improve sales strategies and achieve revenue targets. Monitored and analyzed competitors' activities, products, and market strategies. Provided insights and recommendations to stay ahead in the market. Ensured all business practices comply with relevant regulations and standards." ,
+      "Gathered and analyzed customer data to understand behavior, preferences, and satisfaction levels. Used these information to drive customer-centric strategies and improved customer loyalty. Monitored sales performance, tracked key performance indicators (KPIs), and analyzed revenue trends. Provided detailed reports and recommendations to improve sales strategies and achieve revenue targets. Monitored and analyzed competitors' activities, products, and market strategies. Provided insights and recommendations to stay ahead in the market. Ensured all business practices comply with relevant regulations and standards.",
     category: "experience",
   },
   {
