@@ -9,6 +9,7 @@ import Skills from "./components/skills/Skills";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import ScrollToTopIcon from "./components/ScrollToTopIcon/ScrollToTopIcon";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+      <ScrollToTopIcon />
     </main>
   );
 }
