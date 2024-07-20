@@ -4,8 +4,8 @@ import Project3 from "./assets/project3.png";
 import Project4 from "./assets/Project4.png";
 import Project5 from "./assets/Project5.png";
 
-import Testimonial1 from "./assets/testimonial1.jpg";
-import Testimonial2 from "./assets/testimonial2.jpg";
+import Testimonial1 from "./assets/testimonial1.png";
+import Testimonial2 from "./assets/testimonial2.png";
 import Testimonial3 from "./assets/testimonial3.jpg";
 
 export const links = [
