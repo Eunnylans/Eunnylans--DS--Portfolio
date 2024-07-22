@@ -260,7 +260,7 @@ export const projects = [
     category: "Python",
     title: "Exploratory Data Analysis (EDA) project",
     description:
-      "The focus of the project is extracting insights from demographics, such as the count of men and women, exploring the age distribution, examining geographic breakdowns, and investigating the intersection between cell phone and bank account ownership.",
+      "This project aims to conduct a thorough analysis of the provided dataset. The focus is on extracting insights into demographics, such as the count of men and women, exploring the age distribution, examining geographic breakdowns, and investigating the intersection between cell phone and bank account ownership.",
     href: "https://github.com/Eunnylans/Exploratory--Data--Analysis--Project/tree/main",
   },
   {
@@ -269,7 +269,7 @@ export const projects = [
     category: "Python",
     title: "A/B testing for GloBox Company",
     description:
-      "Conducted an A/B test on an e-commerce website to determine whether a change to the website's layout would result in an increase in revenue.",
+      "Conducted an A/B test on an e-commerce website to see if a layout change would increase revenue. We analysed user data, calculating conversion rates, average order value, and total revenue. The chi-squared test confirmed the significance (p-value < 0.05). We recommend adopting the new layout for all users.",
     href: "https://github.com/Eunnylans/GloBox--AB--Testing--Project",
   },
 ];
