@@ -81,6 +81,7 @@
   --bg-color: #f0ebe3;
   --bg-color-alt: #fff;
   --container-color: #fff;
+  --container-color2: #262626;
   --border-color: #000;
 
   /**
@@ -114,6 +115,15 @@
   text-align: center;
 
 }
+
+
+/*-----------------------------------*\
+#Testimonial Section
+\*-----------------------------------*/
+
+.light-theme .testimonial__icon {
+}
+
 /*-----------------------------------*\
 #RESET
 \*-----------------------------------*/
