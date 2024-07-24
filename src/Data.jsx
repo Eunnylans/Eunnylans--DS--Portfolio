@@ -249,10 +249,10 @@ export const projects = [
     id: 3,
     img: Project3,
     category: "Python",
-    title: "ETL Process for Bank Market Cap Data",
+    title: "ETL Process for Gun Violence Dataset",
     description:
       "This project involved extracting bank and market cap data from two JSON files, bank_market_cap_1.json and bank_market_cap_2.json. The data was then transformed using exchange rate data from exchange_rates.csv, and loaded into a separate CSV file..",
-    href: "https://github.com/Eunnylans/Cluster--Analysis--Player--Performance--Using--IPL--Ball--By--Ball--Dataset",
+    href: "https://github.com/Eunnylans/ETL--Gun--Violence--Project",
   },
   {
     id: 4,
@@ -397,7 +397,7 @@ export const testimonials = [
     name: "Irina Dragomirescu",
     author: "",
     description:
-      'I have had the pleasure of working with Eunice on numerous occasions. When it comes to our work and projects she never ceased to amaze me with her resourcefulness, great teamwork, unstoppable eagerness to help her colleagues and impressive coding skills.',
+      "I have had the pleasure of working with Eunice on numerous occasions. When it comes to our work and projects she never ceased to amaze me with her resourcefulness, great teamwork, unstoppable eagerness to help her colleagues and impressive coding skills.",
     href: "https://www.linkedin.com/in/irina-dragomirescu/",
   },
   {
@@ -406,7 +406,7 @@ export const testimonials = [
     name: "Enrique-Coscarelli",
     author: "",
     description:
-      'Eunice has been an incredible student, she would always amaze me with the outcomes of her projects. So much so that she was one of the winners for her final project along with her team mates. I am already so proud of her, I am sure she will do really well in the future.',
+      "Eunice has been an incredible student, she would always amaze me with the outcomes of her projects. So much so that she was one of the winners for her final project along with her team mates. I am already so proud of her, I am sure she will do really well in the future.",
     href: "https://www.linkedin.com/in/enrique-coscarelli/",
   },
   {

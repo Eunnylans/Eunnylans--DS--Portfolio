@@ -1,41 +1,44 @@
 import VisibilityIcon from "@material-ui/icons/Visibility";
 import React from "react";
+import { Link as LinkScroll } from "react-scroll";
+import Typist from "react-text-typist";
 import "./heroSection.css";
 
 const HeroSection = () => {
   return (
-    <div className="hero-container" id="hero-container">
+    <div className="hero" id="hero">
       <div className="hero-content">
-        <h1>Transforming Data into Insightful Decisions</h1>
-        <h2>Meet Eunice Igbinedion: Your Expert Data Analyst</h2>
-        {/*
-                <p>
-                    In today's data-driven world, making informed decisions is key to success.
-                    Jane Doe is a seasoned Data Analyst with a passion for turning raw data into
-                    actionable insights. With her expertise in statistical analysis, data visualization,
-                    and predictive modeling, Jane empowers businesses to unlock their full potential.
-                    From streamlining operations to enhancing customer experiences, Jane’s data-driven
-                    strategies ensure you stay ahead of the curve.
-                </p>
-                */}
-        <ul>
-          <li>
-            <strong>Expertise:</strong> Advanced Analytics, Data Visualization,
-            Machine Learning
-          </li>
-          <li>
-            <strong>Tools:</strong> Excel, Python, SQL, Tableau, Power BI,
-            machine Learning
-          </li>
-          <li>
-            <strong>Experience:</strong> 7+ years in diverse industries
-            including finance, healthcare, and retail
-          </li>
-        </ul>
-        <button className="cta-button">
-          VIEW PORTFOLIO
-          <VisibilityIcon className="cta-button-icon" />
-        </button>
+        <h1>
+          Hello 👋 My name is Eunice Abieyuwa Igbinedion
+          <Typist
+            sentences=""
+            cursorColor={"#ff7f50;"}
+            typingSpeed={120}
+            loop={false}
+          />
+        </h1>
+        <p>
+          <span className="hero-colorText">
+            ✨I build websites with a focus on responsive design, and
+            accessibility.✨
+          </span>
+          &nbsp; <br />
+          ✨✨ click the link below to!!✨✨
+          <br />
+          <LinkScroll
+            // className="hamburger-nav-link"
+            // activeClass="nav-link-active"
+            className="hero-view"
+            to="portfolio"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={700}
+          >
+            view portfolio
+            <VisibilityIcon className="icon" />
+          </LinkScroll>{" "}
+        </p>
       </div>
     </div>
   );

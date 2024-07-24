@@ -107,7 +107,7 @@
 #Hero Section
 \*-----------------------------------*/
 
-.light-theme .hero-container {
+.light-theme .hero {
   background-image: url('../src/assets/wbg.png');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */

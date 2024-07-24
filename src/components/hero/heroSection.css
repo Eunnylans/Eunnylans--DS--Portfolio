@@ -1,14 +1,15 @@
-.hero-container {
+.hero {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 100vh;
   /* background: var(--first-gradient);*/
   background-image: var(--second-gradient);
-    /*background-image: url('../../assets/Background.jpg'); */
+  /*background-image: url('../../assets/Background.jpg'); */
   background-image: var(--second-gradient);
-  background-image: var(  --title-color2);
-  background-image: url('../../assets/Back.png');
+  background-image: var(--title-color2);
+  background-image: url("../../assets/Back.png");
   background-size: cover; /* Make the background cover the entire area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -16,93 +17,224 @@
   text-align: center;
 }
 
-.hero-content {
-  max-width: 800px;
+.hero .hero-content {
+  height: auto;
+  transform: translateY(-40px);
+  width: 55vw;
+  padding-top: 15%;
 }
 
-.hero-content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.hero-content h2 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.hero-content p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  line-height: 1.6;
-}
-
-.hero-content ul {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 30px;
-}
-
-.hero-content ul li {
-  font-size: var(--large-font-size);
-  margin-bottom: 10px;
-}
-
-.cta-button {
+.hero .hero-content h1 {
+  font-size: 40px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  /*font-family: "Poppins Medium";}*/
+  /*color: #ff7f50;  Example value for $darkgreen */
   text-align: center;
-  padding: 15px 30px;
-  font-size: var(--large-font-size);
-  font-weight: bolder;
-  color: #fff;
-  background-color: #ff7f50;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  opacity: 0;
+  animation: fadeIn linear 0.8s forwards;
 }
 
-.cta-button-icon {
-  margin-left: 10px; /* Optional: Add space between text and icon */
+.hero .hero-content p {
+  font-size: 24px; /* Example value for $fontsize-largeText */
+  /*font-family: "Poppins Medium";*/
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn linear 0.8s forwards;
+  animation-delay: 0.3s;
 }
 
-.cta-button:hover {
-  background-color: #ff6347;
+.hero .hero-content p .hero-colorText {
+  /*color: #00FFFF; /* Example value for $aqua */
+  font-weight: 900;
+  /*font-family: "Poppins Medium";*/
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 2rem;
-  }
+.hero .hero-content p .hero-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px; /* Example value for $fontsize-midText */
+  background-color: #ff7f50; /* Example value for $offwhite */
+  /*color: #006400; /* Example value for $darkgreen */
+  border: 3px solid #ff7f50; /* Example value for $aqua */
+  /*font-family: "Poppins Medium";*/
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  text-transform: uppercase;
+}
 
-  .hero-content h2 {
-    font-size: 1.5rem;
-  }
+.hero .hero-content p .hero-view:hover {
+  background-color: #ff7f50; /* Example value for $aqua */
+  border-color: #ffffff;
+  color: #ffffff; /* Example value for $white */
+}
 
-  .hero-content p {
-    font-size: 1rem;
-  }
+.hero .hero-content p .hero-view .icon {
+  padding: 0px 0px 0px 10px;
+  height: 80px;
+  width: 30px;
+}
 
-  .cta-button {
-    padding: 10px 20px;
-    font-size: 0.9rem;
+a.hero-view {
+  padding: 0px 0px 5px 10px;
+  height: 60px;
+  width: 250px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
   }
 }
 
-@media (max-width: 480px) {
-  .hero-content h1 {
-    font-size: 1.5rem;
+@media only screen and (max-width: 767px) {
+  .hero {
+    height: calc(100vh - 60px);
   }
 
-  .hero-content h2 {
-    font-size: 1.2rem;
+  .hero .hero-content {
+    width: 90vw;
+    transform: translateY(-30px);
   }
 
-  .hero-content p {
-    font-size: 0.9rem;
+  .hero .hero-content h1 {
+    font-size: 30px;
   }
 
-  .cta-button {
-    padding: 8px 15px;
-    font-size: 0.8rem;
+  .hero .hero-content p {
+    font-size: 18px; /* Example value for $fontsize-midText */
+  }
+
+  .hero .hero-content p .hero-view {
+    font-size: 14px; /* Example value for $fontsize-minText */
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 767px) {
+  .hero {
+    height: calc(100vh);
+  }
+
+  .hero .hero-content {
+    width: 75vw;
+    transform: translateY(0px);
+  }
+
+  .hero .hero-content h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+
+  .hero .hero-content p {
+    font-size: 14px; /* Example value for $fontsize-minText */
+  }
+
+  .hero .hero-content p .hero-view {
+    font-size: 14px; /* Example value for $fontsize-minText */
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .hero {
+    height: calc(100vh);
+  }
+
+  .hero .hero-content {
+    width: 75vw;
+    transform: translateY(0px);
+  }
+
+  .hero .hero-content h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+
+  .hero .hero-content p {
+    font-size: 14px; /* Example value for $fontsize-minText */
+  }
+
+  .hero .hero-content p .hero-view {
+    font-size: 14px; /* Example value for $fontsize-minText */
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .hero {
+    height: calc(100vh);
+  }
+
+  .hero .hero-content {
+    width: 75vw;
+    transform: translateY(0px);
+  }
+
+  .hero .hero-content h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .hero .hero-content p {
+    font-size: 12px; /* Example value for $fontsize-smallText */
+  }
+
+  .hero .hero-content p .hero-view {
+    font-size: 12px; /* Example value for $fontsize-smallText */
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hero {
+    height: calc(100vh);
+  }
+
+  .hero .hero-content {
+    width: 75vw;
+    transform: translateY(0px);
+  }
+
+  .hero .hero-content h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .hero .hero-content p {
+    font-size: 14px; /* Example value for $fontsize-minText */
+  }
+
+  .hero .hero-content p .hero-view {
+    font-size: 14px; /* Example value for $fontsize-minText */
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .hero {
+    height: calc(100vh);
+  }
+
+  .hero .hero-content {
+    width: 75vw;
+    transform: translateY(0px);
+  }
+
+  .hero .hero-content h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .hero .hero-content p {
+    font-size: 14px; /* Example value for $fontsize-minText */
+  }
+
+  .hero .hero-content p .hero-view {
+    font-size: 14px; /* Example value for $fontsize-minText */
   }
 }
