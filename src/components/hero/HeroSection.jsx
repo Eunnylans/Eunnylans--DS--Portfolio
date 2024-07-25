@@ -19,8 +19,7 @@ const HeroSection = () => {
         </h1>
         <p>
           <span className="hero-colorText">
-            ✨I build websites with a focus on responsive design, and
-            accessibility.✨
+            ✨I turn raw data into actionable insights.✨
           </span>
           &nbsp; <br />
           ✨✨ click the link below to!!✨✨
