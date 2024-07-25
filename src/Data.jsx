@@ -395,7 +395,7 @@ export const testimonials = [
     id: 1,
     img: Testimonial1,
     name: "Irina Dragomirescu",
-    author: "",
+    author: "WBS Coding School Alumni",
     description:
       "I have had the pleasure of working with Eunice on numerous occasions. When it comes to our work and projects she never ceased to amaze me with her resourcefulness, great teamwork, unstoppable eagerness to help her colleagues and impressive coding skills.",
     href: "https://www.linkedin.com/in/irina-dragomirescu/",
@@ -405,17 +405,17 @@ export const testimonials = [
     id: 3,
     img: Testimonial3,
     name: "Williams Iwebema",
-    author: "",
+    author: "PHD Student",
     description:
-      "Eunice has been an incredible student, she would always amaze me with the outcomes of her projects. So much so that she was one of the winners for her final project along with her team mates. I am already so proud of her, I am sure she will do really well in the future.",
-    href: "https://www.linkedin.com/in/oluseun-sanuade-9406b730/",
+      "Her project results never fail to impress, showcasing her innovative thinking. I was privileged to work with her on several projects, where she performed excellently and maintained control throughout. Her ability to lead and execute tasks is truly commendable.",
+    href: "https://www.linkedin.com/in/williamsiwebema/",
   },
 
   {
     id: 2,
     img: Testimonial2,
     name: "Enrique-Coscarelli",
-    author: "",
+    author: "WBS Coding School Instructor",
     description:
       "Eunice has been an incredible student, she would always amaze me with the outcomes of her projects. So much so that she was one of the winners for her final project along with her team mates. I am already so proud of her, I am sure she will do really well in the future.",
     href: "https://www.linkedin.com/in/enrique-coscarelli/",
