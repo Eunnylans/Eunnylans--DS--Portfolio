@@ -6,7 +6,7 @@ import Project5 from "./assets/Project5.png";
 
 import Testimonial1 from "./assets/testimonial1.png";
 import Testimonial2 from "./assets/testimonial2.png";
-import Testimonial3 from "./assets/testimonial3.jpg";
+import Testimonial3 from "./assets/testimonial3.png";
 
 export const links = [
   {
@@ -400,15 +400,7 @@ export const testimonials = [
       "I have had the pleasure of working with Eunice on numerous occasions. When it comes to our work and projects she never ceased to amaze me with her resourcefulness, great teamwork, unstoppable eagerness to help her colleagues and impressive coding skills.",
     href: "https://www.linkedin.com/in/irina-dragomirescu/",
   },
-  {
-    id: 2,
-    img: Testimonial2,
-    name: "Enrique-Coscarelli",
-    author: "",
-    description:
-      "Eunice has been an incredible student, she would always amaze me with the outcomes of her projects. So much so that she was one of the winners for her final project along with her team mates. I am already so proud of her, I am sure she will do really well in the future.",
-    href: "https://www.linkedin.com/in/enrique-coscarelli/",
-  },
+
   {
     id: 3,
     img: Testimonial3,
@@ -418,4 +410,15 @@ export const testimonials = [
       "Eunice has been an incredible student, she would always amaze me with the outcomes of her projects. So much so that she was one of the winners for her final project along with her team mates. I am already so proud of her, I am sure she will do really well in the future.",
     href: "https://www.linkedin.com/in/oluseun-sanuade-9406b730/",
   },
+
+  {
+    id: 2,
+    img: Testimonial2,
+    name: "Enrique-Coscarelli",
+    author: "",
+    description:
+      "Eunice has been an incredible student, she would always amaze me with the outcomes of her projects. So much so that she was one of the winners for her final project along with her team mates. I am already so proud of her, I am sure she will do really well in the future.",
+    href: "https://www.linkedin.com/in/enrique-coscarelli/",
+  },
+
 ];
