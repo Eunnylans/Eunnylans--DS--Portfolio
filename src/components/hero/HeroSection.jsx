@@ -25,8 +25,6 @@ const HeroSection = () => {
           ✨✨ click the link below to!!✨✨
           <br />
           <LinkScroll
-            // className="hamburger-nav-link"
-            // activeClass="nav-link-active"
             className="hero-view"
             to="portfolio"
             spy={true}

@@ -49,11 +49,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px; /* Example value for $fontsize-midText */
-  background-color: #ff7f50; /* Example value for $offwhite */
-  /*color: #006400; /* Example value for $darkgreen */
-  border: 3px solid #ff7f50; /* Example value for $aqua */
-  /*font-family: "Poppins Medium";*/
+  font-size: 18px; 
+  background-color: #ff7f50; 
+  border: 3px solid #ff7f50; 
   font-weight: bold;
   line-height: 1.3;
   text-align: center;
@@ -62,9 +60,9 @@
 }
 
 .hero .hero-content p .hero-view:hover {
-  background-color: #ff7f50; /* Example value for $aqua */
+  background-color: #ff7f50; 
   border-color: #ffffff;
-  color: #ffffff; /* Example value for $white */
+  color: #ffffff;
 }
 
 .hero .hero-content p .hero-view .icon {
