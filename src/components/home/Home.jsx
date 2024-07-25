@@ -26,7 +26,7 @@ const Home = () => {
                 src={Profile}
                 alt="Eunice Igbinedion"
                 className="home__profile"
-                style={{ marginLeft: "85px" }}
+                style={{marginLeft: "15%",   height: "100%" }}
               />
             </div>
 
