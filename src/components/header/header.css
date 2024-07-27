@@ -5,7 +5,6 @@
   padding: 30px;
   z-index: 100;
   background-image: var(--primary-color);
-  padding-bottom: -30px;
 }
 
 .scroll-header {
@@ -32,7 +31,7 @@
 .nav__logo {
   color: var(--title-color);
   font-size: var(--h4-font-size);
-  font-weight: 700;
+  font-weight: 900;
   cursor: pointer;
 }
 
