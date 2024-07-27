@@ -298,7 +298,6 @@ img {
   overflow: hidden;
   text-align: left;
   position: relative;
-  z-index: 10;
 }
 
 .card-one {

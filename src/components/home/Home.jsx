@@ -88,7 +88,7 @@ const Home = () => {
               spy={true}
               hashSpy={true}
               smooth={true}
-              offset={-150}
+              offset={-90}
               duration={500}
             >
               My Skills

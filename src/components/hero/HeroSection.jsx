@@ -29,7 +29,7 @@ const HeroSection = () => {
             to="portfolio"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-90}
             duration={700}
           >
             view portfolio
