@@ -1,5 +1,5 @@
 .to-top-icon {
-  z-index: 200;
+  z-index: 300;
   animation: fadeout 1s linear 0s forwards;
 }
 
