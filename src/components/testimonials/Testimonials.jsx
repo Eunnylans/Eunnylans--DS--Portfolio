@@ -44,6 +44,7 @@ const Testimonials = () => {
         }}
         modules={[Pagination]}
         className="testimonials__container container mySwiper"
+        style={{zIndex: 0 }}
       >
         {testimonials.map(({ img, name, author, description, href }, index) => {
           return (

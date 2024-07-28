@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <section className="home" id="home">
       <div className="home__wrapper">
-        <div className="home__container container">
+        <div className="home__container container"  style={{zIndex: 0 }}>
           <h1 className="home__title text-cs">
             <span>Eunice</span> Igbinedion
           </h1>
@@ -21,7 +21,7 @@ const Home = () => {
           </p>
 
           <div className="home__img-wrapper">
-            <div className="home__banner">
+            <div className="home__banner" >
               <img
                 src={Profile}
                 alt="Eunice Igbinedion"
