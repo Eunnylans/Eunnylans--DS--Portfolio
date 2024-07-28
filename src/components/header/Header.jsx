@@ -72,7 +72,7 @@ const Header = () => {
                       spy={true}
                       hashSpy={true}
                       smooth={true}
-                      offset={-85}
+                      offset={-80}
                       duration={500}
                       onClick={() => setShowMenu(!showMenu)}
                     >
