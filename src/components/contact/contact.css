@@ -5,7 +5,6 @@
   .contact__container {
     grid-template-columns: 5fr 7fr;
     position: relative;
-    z-index: 10;
   }
   
   .contact__card {

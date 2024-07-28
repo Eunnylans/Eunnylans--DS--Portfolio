@@ -20,7 +20,7 @@ const Home = () => {
             <b>Data Analyst / Business Analyst </b>
           </p>
 
-          <div className="home__img-wrapper">
+          <div className="home__img-wrapper" >
             <div className="home__banner" >
               <img
                 src={Profile}
