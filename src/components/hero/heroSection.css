@@ -33,7 +33,6 @@
   text-align: center;
   opacity: 0;
   animation: fadeIn linear 0.8s forwards;
-
   background-image: url(https://media0.giphy.com/media/0AOlb3LlQ14z68ORRu/200.webp?cid=790b7611jey269o1yia7no8fozorlm6sf084lppvrfsssl8p&ep=v1_gifs_search&rid=200.webp&ct=g);
 	background-size: cover;
 	color: transparent;
@@ -60,6 +59,7 @@
 
 .hero .hero-content p .hero-colorText {
   font-weight: 900;
+  animation: fadeIn linear 0.8s forwards;
   background-image: url(https://media0.giphy.com/media/0AOlb3LlQ14z68ORRu/200.webp?cid=790b7611jey269o1yia7no8fozorlm6sf084lppvrfsssl8p&ep=v1_gifs_search&rid=200.webp&ct=g);
 	background-size: cover;
 	color: transparent;
@@ -71,6 +71,7 @@
 }
 
 .hero .hero-content p .hero-view {
+  animation: fadeIn linear 0.8s forwards;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,6 +94,7 @@
   filter: blur(0);
   opacity: 1;
 }
+
 
 .hero .hero-content p .hero-view .icon {
   padding: 0px 0px 0px 5px;
@@ -148,7 +150,7 @@ a.hero-view {
   }
 
   .hero .hero-content h1 {
-    font-size: 35px;
+    font-size: 25px;
     padding-bottom: 30px;
   }
 
@@ -171,7 +173,7 @@ a.hero-view {
   }
 
   .hero .hero-content h1 {
-    font-size: 30px;
+    font-size: 24px;
     padding-bottom: 30px;
   }
 
@@ -194,7 +196,7 @@ a.hero-view {
   }
 
   .hero .hero-content h1 {
-    font-size: 30px;
+    font-size: 22px;
     padding-bottom: 20px;
   }
 
@@ -234,6 +236,28 @@ a.hero-view {
   }
 }
 
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .hero {
+    padding: 0 5px;
+  }
+
+ .hero .hero-content h1 {
+    font-size: 20px;
+  }
+
+  .hero .hero-content p .hero-colorText {
+    font-size: 10px;
+  }
+
+  .hero .hero-content p .hero-view {
+    font-size: 14px;
+  }
+}
+
+
+
+
 @media only screen and (max-width: 280px) {
   .hero {
     height: calc(100vh);
@@ -261,6 +285,27 @@ a.hero-view {
   }
 }
 
+
+/* Specific Media Query for 360px x 740px */
+@media only screen and (max-width: 360px) and (max-height: 740px) {
+  .hero .hero-content h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .hero .hero-content p {
+    font-size: 12px;
+  }
+
+  .hero .hero-content p .hero-view {
+    font-size: 12px;
+  }
+
+  a.hero-view {
+    height: 50px;
+    width: 180px;
+  }
+}
 
 
 

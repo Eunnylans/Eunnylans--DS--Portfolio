@@ -143,12 +143,114 @@
 	font-size: 20px;
 }
 
-.light-theme .hero .hero-content p .hero-view {
+.light-theme .hero .hero-content p .hero-view{
+color: #554b4b;
+}
+
+
+.light-theme .hero .hero-content p .hero-view:hover {
+  background-color:  #ff7f50;
+  border-color: #f6dbdb;
+  color: #554b4b;
+  transform: scale(1);
+  filter: blur(0);
+  opacity: 1;
 }
 
 
 
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .light-theme .hero .hero-content h1 {
+    font-size: 36px;
+  }
 
+  .light-theme .hero .hero-content p .hero-colorText {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .light-theme .hero {
+    padding: 0 15px;
+  }
+
+  .light-theme .hero .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .light-theme .hero .hero-content p .hero-colorText {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .light-theme .hero {
+    padding: 0 10px;
+  }
+
+  .light-theme .hero .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .light-theme .hero .hero-content p .hero-colorText {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .light-theme .hero {
+    padding: 0 5px;
+  }
+
+  .light-theme .hero .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .light-theme .hero .hero-content p .hero-colorText {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .light-theme .hero {
+    padding: 0 5px;
+  }
+
+  .light-theme .hero .hero-content h1 {
+    font-size: 20px;
+  }
+
+  .light-theme .hero .hero-content p .hero-colorText {
+    font-size: 10px;
+  }
+
+  .light-theme .hero .hero-content p .hero-view {
+    font-size: 14px;
+  }
+}
+
+
+/* Specific Media Query for 360px x 740px */
+@media only screen and (max-width: 360px) and (max-height: 740px) {
+  .light-theme .hero .hero-content h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .light-theme .hero .hero-content p {
+    font-size: 12px;
+  }
+
+  .light-theme .hero .hero-content p .hero-view {
+    font-size: 12px;
+  }
+
+  a.hero-view {
+    height: 50px;
+    width: 180px;
+  }
+}
 
 
 /*-----------------------------------*\
