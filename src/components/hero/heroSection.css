@@ -20,15 +20,28 @@
   height: auto;
   transform: translateY(-40px);
   padding-top: 15%;
+	text-align: center;
+	color: #FFF;
+	letter-spacing: 1px;
+	line-height:2
 }
 
 .hero .hero-content h1 {
   font-size: 40px;
   font-weight: 900;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   text-align: center;
   opacity: 0;
   animation: fadeIn linear 0.8s forwards;
+
+  background-image: url(https://media0.giphy.com/media/0AOlb3LlQ14z68ORRu/200.webp?cid=790b7611jey269o1yia7no8fozorlm6sf084lppvrfsssl8p&ep=v1_gifs_search&rid=200.webp&ct=g);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 0px 0;
 }
 
 .hero .hero-content p {
@@ -47,6 +60,14 @@
 
 .hero .hero-content p .hero-colorText {
   font-weight: 900;
+  background-image: url(https://media0.giphy.com/media/0AOlb3LlQ14z68ORRu/200.webp?cid=790b7611jey269o1yia7no8fozorlm6sf084lppvrfsssl8p&ep=v1_gifs_search&rid=200.webp&ct=g);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 20px;
+  padding-bottom: 20px;
 }
 
 .hero .hero-content p .hero-view {
@@ -105,11 +126,11 @@ a.hero-view {
   }
 
   .hero .hero-content h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
-  .hero .hero-content p {
-    font-size: 18px; /* Example value for $fontsize-midText */
+  .hero .hero-content p .hero-colorText{
+    font-size: 13px; /* Example value for $fontsize-midText */
   }
 
   .hero .hero-content p .hero-view {
@@ -127,7 +148,7 @@ a.hero-view {
   }
 
   .hero .hero-content h1 {
-    font-size: 30px;
+    font-size: 35px;
     padding-bottom: 30px;
   }
 
@@ -209,7 +230,7 @@ a.hero-view {
   }
   a.hero-view {
     height: 50px;
-    width: 180px;
+    width: 200px;
   }
 }
 

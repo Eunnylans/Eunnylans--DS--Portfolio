@@ -116,9 +116,37 @@
 
 }
 
-.light-theme .hero-colorText{
-  color: #ff7f50;
+.light-theme .hero .hero-content h1 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn linear 0.8s forwards;
+  background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDVhM2hqN3ZzdHdpajlsd2dld3hmMXJpa3ZhbXl6ajRrMDlkbXluZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0EwYucKUhwDBwCD6/giphy.webp);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 0px 0;
 }
+
+.light-theme .hero .hero-content p .hero-colorText {
+  animation: fadeIn linear 0.8s forwards;
+  background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDVhM2hqN3ZzdHdpajlsd2dld3hmMXJpa3ZhbXl6ajRrMDlkbXluZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0EwYucKUhwDBwCD6/giphy.webp);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.light-theme .hero .hero-content p .hero-view {
+}
+
+
 
 
 

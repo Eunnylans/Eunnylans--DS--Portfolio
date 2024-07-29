@@ -19,11 +19,13 @@ const HeroSection = () => {
         </h1>
         <p>
           <span className="hero-colorText">
-            ✨I turn raw data into actionable insights.✨
+            ✨I turn raw data into actionable insights✨
+            
+            <br className='click-text' />
+            ✨✨ click the link below to!!✨✨
+            <br />
           </span>
-          &nbsp; <br />
-          ✨✨ click the link below to!!✨✨
-          <br />
+         
           <LinkScroll
             className="hero-view"
             to="portfolio"
