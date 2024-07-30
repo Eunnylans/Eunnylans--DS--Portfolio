@@ -4,32 +4,29 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: var(--second-gradient);
-  background-image: var(--second-gradient);
   background-image: var(--title-color2);
   background-image: url("../../assets/Back.png");
   background-size: cover; /* Make the background cover the entire area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
-  padding: 0 20px;
+  padding: 0px 20px;
   text-align: center;
   overflow: hidden;
 }
 
+
 .hero .hero-content {
   height: auto;
-  transform: translateY(-40px);
-  padding-top: 15%;
+  width: 100%;
+  padding-top:5%;
 	text-align: center;
 	color: #FFF;
-	letter-spacing: 1px;
-	line-height:2
+
 }
 
 .hero .hero-content h1 {
   font-size: 40px;
   font-weight: 900;
-  padding-bottom: 0px;
   text-align: center;
   opacity: 0;
   animation: fadeIn linear 0.8s forwards;
@@ -40,8 +37,10 @@
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	font-size: 40px;
-	margin: 0px 0;
+	margin: 0;
 }
+
+
 
 .hero .hero-content p {
   display: flex;
@@ -118,13 +117,40 @@ a.hero-view {
   }
 }
 
+
+@media screen and (min-width: 853px) and (max-width: 1280px) {
+  .hero .hero-content {
+   
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-height: 800px) {
+  .hero .hero-content {
+   
+  }
+}
+@media screen and (min-width: 1024px) and (max-height: 600px) {
+  .hero .hero-content {
+  }
+}
+
+@media screen and (min-width: 768px) and (max-height: 1024px) {
+  .hero .hero-content {
+  }
+}
+
+@media screen and (min-width: 820px) and (max-height: 1180px) {
+  .hero .hero-content {
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .hero {
-    height: calc(100vh - 60px);
+  
   }
 
   .hero .hero-content {
-    transform: translateY(-30px);
+  
   }
 
   .hero .hero-content h1 {
@@ -146,7 +172,7 @@ a.hero-view {
   }
 
   .hero .hero-content {
-    transform: translateY(0px);
+   
   }
 
   .hero .hero-content h1 {
@@ -169,7 +195,7 @@ a.hero-view {
   }
 
   .hero .hero-content {
-    transform: translateY(0px);
+    
   }
 
   .hero .hero-content h1 {
@@ -192,7 +218,7 @@ a.hero-view {
   }
 
   .hero .hero-content {
-    transform: translateY(0px);
+    
   }
 
   .hero .hero-content h1 {
@@ -215,7 +241,6 @@ a.hero-view {
   }
 
   .hero .hero-content {
-    transform: translateY(0px);
   }
 
   .hero .hero-content h1 {
@@ -242,6 +267,9 @@ a.hero-view {
     padding: 0 5px;
   }
 
+  .hero .hero-content {
+  }
+
  .hero .hero-content h1 {
     font-size: 20px;
   }
@@ -264,7 +292,7 @@ a.hero-view {
   }
 
   .hero .hero-content {
-    transform: translateY(0px);
+    
   }
 
   .hero .hero-content h1 {
@@ -288,6 +316,11 @@ a.hero-view {
 
 /* Specific Media Query for 360px x 740px */
 @media only screen and (max-width: 360px) and (max-height: 740px) {
+
+  .hero .hero-content {
+    font-size: 20px;
+  }
+
   .hero .hero-content h1 {
     font-size: 20px;
     padding-bottom: 20px;
@@ -306,7 +339,3 @@ a.hero-view {
     width: 180px;
   }
 }
-
-
-
-

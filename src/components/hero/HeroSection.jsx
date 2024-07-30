@@ -3,12 +3,12 @@ import React from "react";
 import { Link as LinkScroll } from "react-scroll";
 import Typist from "react-text-typist";
 import "./heroSection.css";
-import ParticlesComponent from './ParticlesComponent';
+
 
 
 const HeroSection = () => {
   return (
-    <div className="hero" id="hero" particles={<ParticlesComponent />}>
+    <div className="hero" id="hero">
       <div className="hero-content">
         <h1>
           Hello 👋 My name is Eunice Abieyuwa Igbinedion
@@ -40,7 +40,6 @@ const HeroSection = () => {
             <VisibilityIcon className="icon" />
           </LinkScroll>{" "}
         </p>
-        <ParticlesComponent />
       </div>
     </div>
   );
