@@ -12,6 +12,7 @@ import Footer from "./components/footer/Footer";
 import ScrollToTopIcon from "./components/ScrollToTopIcon/ScrollToTopIcon";
 
 
+
 function App() {
   return (
     <main className="main">

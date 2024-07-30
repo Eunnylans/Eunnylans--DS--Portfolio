@@ -4,7 +4,7 @@ import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
 import { Link, animateScroll } from "react-scroll";
 import { links } from "../../Data";
 import "./header.css";
-import ParticlesComponent from '../hero/ParticlesComponent';
+
 
 
 const getStorageTheme = () => {
@@ -121,7 +121,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <ParticlesComponent />
+    
     </header>
   );
 };
