@@ -8,6 +8,7 @@ import {
 import './contact.css';
 
 const Contact = () => {
+  const [result, showResult] = useState(false);
   const [form, setForm] = useState({
     Name: '',
     Email: '',
@@ -27,21 +28,43 @@ const Contact = () => {
     const formEle = document.querySelector('form');
     const formDatab = new FormData(formEle);
     fetch(
-            'https://script.google.com/macros/s/AKfycbxzgk4TGwfy8jLxXi-QXb0JFS9qJcsyg7NfFf-hjLGWtKm5Ji_JzFqC1zZOv-li_P1I/exec',
+            'https://script.google.com/macros/s/AKfycbzKi7PLbHDEFqud_W6WIkQuzVqYmj7iTfiRTsMRjlqIB54C3-q45d2KiGcgW0YMNz1V/exec',
       {
         method: 'POST',
         body: formDatab,
       }
     )
       .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
+      .then((result) => {
+        console.log("Sucessful", result.text);
       })
       .catch((error) => {
-        console.log(error);
+        console.log("Failed", error.text);
       });
     setForm({ Name: '', Email: '', Subject: '', Message: '' });
+
+    showResult(true);
+
+    // hide result
+    setTimeout(() => {
+      showResult(false);
+    }, 7000);
   }
+
+  const Result = () => {
+    return (
+      <p
+        style={{
+          fontSize: "15px",
+          padding: "10px",
+        }}
+      >
+        Thank you for your message. I'll get back to you as soon as possible.
+        Best wishes and keep smiling, Eunice 😊✨
+      </p>
+    );
+  };
+
 
   return (
     <section className='contact section' id='contact'>
@@ -98,6 +121,7 @@ const Contact = () => {
               <input
                 type='text'
                 name='Name'
+                required
                 onChange={handleChange}
                 value={form.Name}
                 className='contact__form-input'
@@ -111,6 +135,7 @@ const Contact = () => {
               <input
                 type='text'
                 name='Email'
+                required
                 onChange={handleChange}
                 value={form.Email}
                 className='contact__form-input'
@@ -124,6 +149,7 @@ const Contact = () => {
             <input
               type='text'
               name='Subject'
+              required
               onChange={handleChange}
               value={form.Subject}
               className='contact__form-input'
@@ -135,6 +161,7 @@ const Contact = () => {
             </label>
             <textarea
               name='Message'
+              required
               onChange={handleChange}
               value={form.Message}
               className='contact__form-input'
@@ -147,6 +174,7 @@ const Contact = () => {
               Send Message
             </button>
           </div>
+          <div className="row">{result ? <Result /> : null}</div>
         </form>
       </div>
 

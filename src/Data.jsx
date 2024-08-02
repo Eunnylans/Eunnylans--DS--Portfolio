@@ -161,28 +161,28 @@ export const skills = [
       "I have a great understanding of design principles and am familiar with Photoshop interface. I also possess the ability to create wireframes and mockups using Figma. This combination ensures effective design solutions, strong visual communication, and user-friendly interfaces, allowing me to translate concepts into designs.",
   },
   {
-    id: 6,
+    id: 9,
     name: "Database management",
     percentage: 70,
     description:
       "As a data analyst, I possess strong database management skills, creating, maintaining, and optimizing databases to manage large data sets. Proficient in MySQL, Oracle, and SQL Server, I design, develop, and maintain databases, optimize performance, ensure data integrity and security, and troubleshoot issues effectively.",
   },
   {
-    id: 6,
+    id: 19,
     name: "Web Scraping",
     percentage: 75,
     description:
       "I have strong web scraping skills, extracting data using tools like BeautifulSoup, and Scrapy from websites, HTML pages, APIs, and PDFs. ",
   },
   {
-    id: 6,
+    id: 11,
     name: "A/B testing",
     percentage: 90,
     description:
       "I am proficient in conducting A/B testing and hypothesis testing to optimize your digital product's performance and user experience.",
   },
   {
-    id: 6,
+    id: 12,
     name: "Power BI",
     percentage: 90,
     description:
@@ -210,7 +210,7 @@ export const projects = [
     href: "https://public.tableau.com/app/profile/euniceigbinedion/viz/EunnylansDynamicSalesCustomerDashboard/CustomerDashboard",
   },
   {
-    id: 5,
+    id: 3,
     img: Project4,
     category: "Power BI",
     title: "Car Sales Dashboard",
@@ -219,7 +219,7 @@ export const projects = [
     href: "https://app.powerbi.com/groups/me/reports/0fbdbecc-06c2-4b19-930e-83b8f5db8841/a900e8dae109900b05a4?ctid=5d7b49e9-50d2-40dc-bab1-14a2d903542c&pbi_source=shareVisual&visual=047a1690285098b2d687&height=247.02&width=449.12&bookmarkGuid=95973f33-54e1-4f5c-b128-683d1c2de05c",
   },
   {
-    id: 5,
+    id: 4,
     img: Project5,
     category: "Power BI",
     title: "Electric Vehicle Analysis Dashboard",
@@ -228,7 +228,7 @@ export const projects = [
     href: "https://app.powerbi.com/links/pFlpyYcJR6?ctid=5d7b49e9-50d2-40dc-bab1-14a2d903542c&pbi_source=linkShare",
   },
   {
-    id: 2,
+    id: 5,
     img: Project3,
     category: "Python",
     title: "Intensity Analysis - Emotion Classification ",
@@ -237,7 +237,7 @@ export const projects = [
     href: "https://github.com/Eunnylans/Intensity--Analysis",
   },
   {
-    id: 2,
+    id: 6,
     img: Project3,
     category: "Python",
     title: "IPL Player Performance Analysis",
@@ -246,7 +246,7 @@ export const projects = [
     href: "https://github.com/Eunnylans/Cluster--Analysis--Player--Performance--Using--IPL--Ball--By--Ball--Dataset",
   },
   {
-    id: 3,
+    id: 7,
     img: Project3,
     category: "Python",
     title: "ETL Process for Gun Violence Dataset",
@@ -255,7 +255,7 @@ export const projects = [
     href: "https://github.com/Eunnylans/ETL--Gun--Violence--Project",
   },
   {
-    id: 4,
+    id: 8,
     img: Project3,
     category: "Python",
     title: "Exploratory Data Analysis (EDA) project",
@@ -264,7 +264,7 @@ export const projects = [
     href: "https://github.com/Eunnylans/Exploratory--Data--Analysis--Project/tree/main",
   },
   {
-    id: 6,
+    id: 9,
     img: Project3,
     category: "Python",
     title: "A/B testing for GloBox Company",
@@ -285,7 +285,7 @@ export const cv = [
     category: "education",
   },
   {
-    id: 1,
+    id: 2,
     title: "Redi School, Germany",
     subtitle: "Data Analyst",
     date: "2023 - 2023",
@@ -295,7 +295,7 @@ export const cv = [
   },
 
   {
-    id: 1,
+    id: 3,
     title: "WBS Coding School, Germany",
     subtitle: "Web Developer",
     date: "2022 - 2022",
@@ -305,7 +305,7 @@ export const cv = [
   },
 
   {
-    id: 2,
+    id: 4,
     title: "Masters Degree in Science and Technology Studies",
     subtitle: "Technical University of Munich, Germany",
     date: "2021 - 2024",
@@ -315,7 +315,7 @@ export const cv = [
   },
 
   {
-    id: 2,
+    id: 5,
     title: "Masters in Business Administration, MBA",
     subtitle: "University of Lagos, Nigeria",
     date: "2016 - 2018",
@@ -325,7 +325,7 @@ export const cv = [
   },
 
   {
-    id: 3,
+    id: 6,
     title: "Bachelor Degree in Ecoconomics & Statistics",
     subtitle: "University of Benin, Nigeria",
     date: "2004 - 2008",
@@ -334,7 +334,7 @@ export const cv = [
     category: "education",
   },
   {
-    id: 4,
+    id: 7,
     title: "Web Solutions and Communication, Remote",
     subtitle: "Data Analyst ",
     date: "2024 - present",
@@ -344,7 +344,7 @@ export const cv = [
   },
 
   {
-    id: 5,
+    id: 8,
     title: "Sixt, Germany",
     subtitle: "Mobile Check in ",
     date: "2023 - 2024",
@@ -353,7 +353,7 @@ export const cv = [
     category: "experience",
   },
   {
-    id: 6,
+    id: 9,
     title: "Regenate, Remote",
     subtitle: "Frontend Developer",
     date: "Jan 2022 - Jun 2023",
@@ -362,7 +362,7 @@ export const cv = [
     category: "experience",
   },
   {
-    id: 6,
+    id: 10,
     title: "Web Solutions & Communications, Nigeria",
     subtitle: "Sales & Marketing Analyst",
     date: "2016 - 2019",
@@ -371,7 +371,7 @@ export const cv = [
     category: "experience",
   },
   {
-    id: 7,
+    id: 11,
     title: "Euro Mega, Nigeria",
     subtitle: "Sales Services Analyst",
     date: "2015-2016",
@@ -380,7 +380,7 @@ export const cv = [
     category: "experience",
   },
   {
-    id: 7,
+    id: 12,
     title: "Eko Supreme Resources, Nigeria",
     subtitle: "Sales Administrator",
     date: "2010-2015",
@@ -402,7 +402,7 @@ export const testimonials = [
   },
 
   {
-    id: 3,
+    id: 2,
     img: Testimonial3,
     name: "Williams Iwebema",
     author: "PHD Student",
@@ -412,7 +412,7 @@ export const testimonials = [
   },
 
   {
-    id: 2,
+    id: 3,
     img: Testimonial2,
     name: "Enrique-Coscarelli",
     author: "WBS Coding School Instructor",

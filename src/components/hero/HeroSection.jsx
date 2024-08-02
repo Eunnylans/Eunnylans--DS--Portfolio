@@ -14,7 +14,7 @@ const HeroSection = () => {
           Hello 👋 My name is Eunice Abieyuwa Igbinedion
           <Typist
             sentences=""
-            cursorColor={"#ff7f50;"}
+            cursorColor={"color: #ff7f50"}
             typingSpeed={120}
             loop={false}
           />
