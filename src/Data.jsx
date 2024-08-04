@@ -6,7 +6,7 @@ import Project5 from "./assets/Project5.png";
 
 import Testimonial1 from "./assets/testimonial1.png";
 import Testimonial2 from "./assets/testimonial2.png";
-import Testimonial3 from "./assets/testimonial5.png";
+import Testimonial3 from "./assets/testimonial4.png";
 
 export const links = [
   {
@@ -356,7 +356,7 @@ export const cv = [
     id: 9,
     title: "Regenate, Remote",
     subtitle: "Frontend Developer",
-    date: "Jan 2022 - Jun 2023",
+    date: "2022 - 2023",
     description:
       "Developed User Interfaces: Created and implemented user-friendly web interfaces using HTML, CSS, and JavaScript frameworks like React. Ensured that web applications were responsive and worked seamlessly across various devices and screen sizes. Optimized frontend performance by minimizing load times and improving code efficiency. Ensured that web applications worked consistently across different browsers and platforms. Worked closely with UX/UI designers to translate design mockups and wireframes into functional web interfaces. Collaborated with backend developers to integrate frontend components with server-side logic and databases. Tested and Debugged: Wrote unit tests and performed debugging to ensure the reliability and stability of frontend code.",
     category: "experience",
@@ -364,28 +364,28 @@ export const cv = [
   {
     id: 10,
     title: "Web Solutions & Communications, Nigeria",
-    subtitle: "Sales & Marketing Analyst",
-    date: "2016 - 2019",
+    subtitle: "Business & Data Analyst",
+    date: "2016 - 2018",
     description:
-      "Built an Excel dashboard for core business KPIs, saving 13 hours weekly in manual reporting. Deployed SQL to optimize data processing, reducing errors by 15%. Developed reports, dashboards, and visualizations for data-driven decision-making, achieving a 20% efficiency improvement. Analyzed market trends and sales data to identify opportunities. Evaluated marketing campaigns and strategies. Forecasted sales trends and market demand. Monitored competitor activities. Created comprehensive sales performance reports and presentations. Collaborated with sales and marketing teams on strategy alignment. Recommended sales-boosting strategies. Tracked key performance metrics. Assessed customer preferences. Supported pricing and product launches. Interpreted data for actionable insights. Managed databases with integrity. Presented findings to stakeholders. Ensured compliance with industry regulations. Facilitated communication across departments.",
+      "Designed and adopted data-driven strategies, resulting in a 25% increase in sales revenue and a 19% improvement in customer satisfaction. Collaborated with cross-functional teams to streamline processes, reducing operational costs by 17% and increasing overall efficiency. Analyzed sales data and metrics to evaluate performance and identify areas for improvement. Prepared detailed reports and presentations on sales performance, market trends, and forecasts for senior management..",
     category: "experience",
   },
   {
     id: 11,
     title: "Euro Mega, Nigeria",
     subtitle: "Sales Services Analyst",
-    date: "2015-2016",
+    date: "2014-2016",
     description:
-      "Gathered and analyzed customer data to understand behavior, preferences, and satisfaction levels. Used these information to drive customer-centric strategies and improved customer loyalty. Monitored sales performance, tracked key performance indicators (KPIs), and analyzed revenue trends. Provided detailed reports and recommendations to improve sales strategies and achieve revenue targets. Monitored and analyzed competitors' activities, products, and market strategies. Provided insights and recommendations to stay ahead in the market. Ensured all business practices comply with relevant regulations and standards.",
+      "Prepared customer receivable aging reports. Gathered and analyzed customer data to understand behavior, preferences, and satisfaction levels. Used these information to drive customer-centric strategies and improved customer loyalty. Monitored sales performance, tracked key performance indicators (KPIs), and analyzed revenue trends. Provided detailed reports and recommendations to improve sales strategies and achieve revenue targets. Monitored and analyzed competitors' activities, products, and market strategies. Provided insights and recommendations to stay ahead in the market. Ensured all business practices comply with relevant regulations and standards.",
     category: "experience",
   },
   {
     id: 12,
     title: "Eko Supreme Resources, Nigeria",
     subtitle: "Sales Administrator",
-    date: "2010-2015",
+    date: "2010-2014",
     description:
-      "Initiated and tracked orders to completion, increasing sales by 30%, Provided administrative and account management support to the distributor and sales supervisors, Acted as the primary contact point for trade inquiries, Ensured the region met and surpassed its monthly and yearly targets, Prepared customer receivable aging reports.",
+      "Initiated and tracked orders to completion, increasing sales by 30%, Provided administrative and account management support to the distributor and sales supervisors, Acted as the primary contact point for trade inquiries, Ensured the region met and surpassed its monthly and yearly targets.",
     category: "experience",
   },
 ];

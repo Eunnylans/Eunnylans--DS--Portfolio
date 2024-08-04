@@ -4,8 +4,6 @@ import { Link as LinkScroll } from "react-scroll";
 import Typist from "react-text-typist";
 import "./heroSection.css";
 
-
-
 const HeroSection = () => {
   return (
     <div className="hero" id="hero">
@@ -22,12 +20,10 @@ const HeroSection = () => {
         <p>
           <span className="hero-colorText">
             ✨I turn raw data into actionable insights✨
-            
-            <br className='click-text' />
+            <br className="click-text" />
             ✨✨ click the link below to!!✨✨
             <br />
           </span>
-         
           <LinkScroll
             className="hero-view"
             to="portfolio"
