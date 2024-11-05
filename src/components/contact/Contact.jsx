@@ -108,7 +108,7 @@ const Contact = () => {
             </span>
 
             <h3 className='contact__card-title'>Phone</h3>
-            <p className='contact__card-data'>+49 1521 - 18 -37442</p>
+            <p className='contact__card-data'>+49 1521 - 67 -46219</p>
           </div>
         </div>
 
